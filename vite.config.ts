@@ -5,6 +5,8 @@
  */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+// 配置@别名
+import { resolve } from 'path'
 
 // 自动导入vue中hook、reactive、ref等
 import AutoImport from 'unplugin-auto-import/vite'
@@ -27,4 +29,10 @@ export default defineConfig({
       dts: 'src/components.d.ts',
     }),
   ],
+  // 解析配置
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+    },
+  },
 })
