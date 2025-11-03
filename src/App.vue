@@ -1,3 +1,8 @@
+<!--
+ * @Author: 人工智障 waynehu2014@163.com
+ * @Date: 2025-11-03 20:48:53
+ * @Description: 
+-->
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 </script>
