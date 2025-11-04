@@ -4,7 +4,13 @@
  * @Description: 网络请求封装
  */
 import axios from 'axios'
+import { ElNotification, ElMessageBox, ElMessage, ElLoading } from 'element-plus'
+import { getToken } from '@/utils/auth'
+import errorCode from '@/utils/errorCode'
+
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse, AxiosError, InternalAxiosRequestConfig } from 'axios'
+
+export const isRelogin = { show: false }
 
 // 创建axios实例
 const request: AxiosInstance = axios.create({

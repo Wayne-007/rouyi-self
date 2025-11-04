@@ -11,11 +11,15 @@
   "dependencies": {
     "axios": "^1.13.1",
     "element-plus": "^2.11.7",
+    "js-cookie": "^3.0.5",
+    "nprogress": "^0.2.0",
     "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.7.1",
     "vue": "^3.5.22",
     "vue-router": "4"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^24.10.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vitejs/plugin-vue-jsx": "^5.1.1",
