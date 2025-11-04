@@ -5,11 +5,11 @@
 -->
 
 <template>
-  <Home />
+  <Login />
 </template>
 
 <script setup lang="ts">
-import Home from '@/views/Home.vue'
+import Login from '@/views/Login/index.vue'
 </script>
 
 <style scoped lang="scss"></style>
